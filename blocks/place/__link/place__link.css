@@ -1,0 +1,14 @@
+.place__link {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0 16px 0 16px;
+}
+
+@media (min-width: 768px) {
+  .place__link {
+    height: 22px;
+    margin: 0;
+  }
+}
