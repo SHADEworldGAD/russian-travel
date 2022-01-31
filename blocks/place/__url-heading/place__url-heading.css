@@ -11,12 +11,5 @@
   .place__url-heading {
     height: 12px;
     margin: 0;
-    /* margin: 46px 0 12px 0; */
-  }
-}
-
-@media (min-width: 1024px) {
-  .place__url-heading {
-    /* margin: 106px 0 12px 0; */
   }
 }

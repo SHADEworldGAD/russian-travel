@@ -28,25 +28,12 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
-
-ul,
-li,
-p,
-h1,
-h2,
-a,
-img {
-  border: 1px solid red;
-}
-
-div {
-  border: 1px solid orange;
-}
-
-header {
-  border: 1px solid green;
-}
-
-section {
-  border: 1px solid rgb(43, 61, 219);
-}
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__links/footer__links.css);

@@ -4,6 +4,11 @@
   text-align: left;
   color: #ffffff;
   margin: 0 16px 0 16px;
+  transition: opacity 0.4s ease;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 768px) {
