@@ -1,0 +1,32 @@
+.intro__title {
+  width: 288px;
+  width: 70%;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: left;
+  color: #ffffff;
+  margin: 64px 16px 40px;
+  padding: 0;
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+  .intro__title {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+    max-width: 720px;
+    width: 90%;
+    margin: 88px 24px 40px 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro__title {
+    margin: 92px 0 40px;
+  }
+}

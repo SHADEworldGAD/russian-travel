@@ -1,0 +1,29 @@
+.place__paragraph {
+  min-width: 288px;
+  font-size: 16px;
+  line-height: 163%;
+  text-align: left;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 0;
+}
+
+.place__paragraph:nth-of-type(2n) {
+  margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+  .place__paragraph {
+    margin: 48px 0 0 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__paragraph {
+    margin: 48px 0 0 0;
+    font-size: 18px;
+    line-height: 163%;
+  }
+}
