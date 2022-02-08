@@ -3,10 +3,36 @@
   display: grid;
   grid-template-rows: repeat(4, auto);
   justify-items: center;
-  transition: opacity 0.4s ease;
-  z-index: 2;
+  width: 100%;
+  min-height: 200px;
+  max-height: 480px;
+  background: rgba(42, 44, 47, 0.3);
+  transition: 0.4s ease;
+
 }
 
 .cover__overlay:hover {
-  opacity: 0.6;
+  background: rgba(42, 44, 47, 0.8);
+  transition: 0.4s ease;
+}
+
+
+@media (min-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+    max-height: 640px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover__overlay {
+    min-height: 640px;
+    max-height: 740px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover__overlay {
+    height: 740px;
+  }
 }
