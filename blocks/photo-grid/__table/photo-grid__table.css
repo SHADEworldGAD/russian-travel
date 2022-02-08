@@ -11,8 +11,6 @@
   .photo-grid__table {
     grid-template-columns: repeat(2, auto);
     gap: 16px;
-    margin: 0;
-    padding: 0;
   }
 }
 

@@ -9,7 +9,6 @@
 
 @media (min-width: 768px) {
   .footer__links {
-    display: grid;
     grid: auto / 50px 57px 94px 86px 106px;
     gap: 18px;
   }

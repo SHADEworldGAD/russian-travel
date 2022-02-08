@@ -30,18 +30,11 @@
   .cover__title {
     max-width: 70%;
     padding-top: 195px;
-    padding-bottom: 32px;
-    font-size: 72px;
-    line-height: 76px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover__title {
-    max-width: 70%;
-    padding-top: 245px;
-    padding-bottom: 32px;
-    font-size: 72px;
-    line-height: 76px;
+     padding-top: 245px;
   }
 }
