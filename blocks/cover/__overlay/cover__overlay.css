@@ -8,14 +8,12 @@
   max-height: 480px;
   background: rgba(42, 44, 47, 0.3);
   transition: 0.4s ease;
-
 }
 
 .cover__overlay:hover {
   background: rgba(42, 44, 47, 0.8);
   transition: 0.4s ease;
 }
-
 
 @media (min-width: 768px) {
   .cover__overlay {
