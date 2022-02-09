@@ -2,5 +2,23 @@
   min-width: 320px;
   max-width: 1184px;
   margin: 0 auto;
-  padding-top: 16px;
+  padding-top: 66px;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    padding-top: 90px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    padding-top: 17px;
+  }
+}
+
+@media (min-width: 1284px) {
+  .cover {
+    padding-top: 92px;
+  }
 }
