@@ -1,8 +1,9 @@
 .cover__overlay {
   text-decoration: none;
   display: grid;
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: 103px;
   justify-items: center;
+  gap: 16px;
   width: 100%;
   min-height: 200px;
   max-height: 480px;
@@ -19,6 +20,8 @@
   .cover__overlay {
     min-height: 480px;
     max-height: 640px;
+    grid-template-rows: 267px;
+    gap: 32px;
   }
 }
 
@@ -26,11 +29,14 @@
   .cover__overlay {
     min-height: 640px;
     max-height: 740px;
+    grid-template-rows: 347px;
+
   }
 }
 
 @media (min-width: 1280px) {
   .cover__overlay {
+    grid-template-rows: 397px;
     height: 740px;
   }
 }

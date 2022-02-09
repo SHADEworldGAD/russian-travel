@@ -7,8 +7,9 @@
   font-style: normal;
   color: #ffffff;
   text-align: center;
+  align-self: start;
   margin: 0;
-  padding-bottom: 33px;
+  padding: 0;
   grid-column: 1/1;
   grid-row: 2/2;
   z-index: 3;
