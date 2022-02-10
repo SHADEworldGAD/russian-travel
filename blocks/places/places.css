@@ -15,13 +15,7 @@
 
 @media (min-width: 1024px) {
   .places {
-    padding-top: 167px;
-    gap: 80px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .places {
     padding-top: 92px;
+    gap: 80px;
   }
 }
