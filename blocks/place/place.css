@@ -2,7 +2,7 @@
   min-width: 320px;
   max-width: 984px;
   display: grid;
-  grid: repeat(4, auto) / auto; 
+  grid: repeat(4, auto) / auto;
   margin: 0 auto;
 }
 
