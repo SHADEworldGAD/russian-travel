@@ -2,31 +2,27 @@
   min-width: 320px;
   max-width: 984px;
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: repeat (6, auto);
+  grid: repeat(4, auto) / auto; 
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
   .place {
-    grid: repeat(3, auto) / auto auto;
+    grid: repeat(2, auto) / 340px auto;
     column-gap: 28px;
-    margin-left: 24px;
-    margin-right: 24px;
   }
 }
 
 @media (min-width: 1024px) {
   .place {
-    grid: repeat(3, auto) / auto auto;
+    grid: repeat(2, auto) / 440px auto;
     column-gap: 32px;
-    margin: 0 auto;
   }
 }
 
 @media (min-width: 1280px) {
   .place {
-    grid: repeat(2, auto) / auto auto;
+    grid: repeat(2, auto) / 460px auto;
     column-gap: 40px;
-    margin: 0 auto;
   }
 }
